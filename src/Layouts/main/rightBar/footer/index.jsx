@@ -11,7 +11,7 @@ const Footer = () => {
                 <Link to="/" className="hover:underline" target="_newblank">Erişilebilirlik</Link>
                 <Link to="/" className="hover:underline" target="_newblank">Reklam bilgisi</Link>
                 <Link to="/" className="hover:underline" target="_newblank">Daha fazla...</Link>
-                <div className=" ">Copyright © 2024 X Corp.</div>
+                <div>Copyright © 2024 X Corp.</div>
             </div>
         </footer>
     )

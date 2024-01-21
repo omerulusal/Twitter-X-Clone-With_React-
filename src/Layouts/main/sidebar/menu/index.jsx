@@ -6,7 +6,7 @@ import { Popover, Transition } from "@headlessui/react"
 import { useSelector } from "react-redux"
 
 const Menu = () => {
-    const hesap = useSelector(state => state.auth.currentAccount)
+    const hesap = useSelector(state => state.auth.currentAccount)//store klasöru > index.js>auth>index.js
     return (
         <nav className="mt-0.5 mb-1">
             {

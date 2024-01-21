@@ -4,7 +4,7 @@ export default function Photo({ photos }) {
 		case 1:
 			return (
 				<div className="mt-3">
-					<img src={photos[0]} alt="" className="border max-h-[510px] object-cover border-[color:var(--background-third)] rounded-2xl"/>
+					<img src={photos[0]} alt="photo" className="border max-h-[510px] object-cover border-[color:var(--background-third)] rounded-2xl"/>
 				</div>
 			)
 
@@ -42,3 +42,4 @@ export default function Photo({ photos }) {
 			)
 	}
 }
+// bir post ta en fazla 4 resim olabilir.

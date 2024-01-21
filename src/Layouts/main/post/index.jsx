@@ -92,7 +92,7 @@ Post.propTypes = {
                 like: PropTypes.number.isRequired,
                 comment: PropTypes.number.isRequired,
                 repost: PropTypes.number.isRequired,
-                view: PropTypes.number.isRequired, // Add this line to include the 'view' property
+                view: PropTypes.number.isRequired,
             }).isRequired,
         }).isRequired
     }).isRequired
